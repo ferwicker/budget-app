@@ -4,6 +4,8 @@ const FILES_TO_CACHE = [
     './',
     '/manifest.webmanifest',
     './index.html',
+    './index.js',
+    './db.js',
     './styles.css',
     './icons/icon-192x192.png',
     './icons/icon-512x512.png'
@@ -41,7 +43,7 @@ self.addEventListener("activate", function(evt) {
     self.clients.claim();
   });
   
-  // fetch - NOT SURE THIS IS NEEDED
+  // fetch
   self.addEventListener("fetch", function(evt) {
     if (evt.request.url.includes("/api/")) {
       evt.respondWith(
