@@ -4,7 +4,7 @@ This progressive web application (PWA) uses a remote server, mongo database and 
 
 [See deployed application.](https://dry-plains-25838.herokuapp.com/)
 
-<img src='./readme-assets/burger-image.jpg' style='width: 500px; margin: 40px 0;'>
+<img src='./readme-assets/budget-tracker-screenshot.png' style='width: 500px; margin: 40px 0;'>
 
  # Table of contents
  - [Motivation](#motivation)
